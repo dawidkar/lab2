@@ -36,7 +36,7 @@ function clamp(value, min, max)
 
 player.prototype.move = function(e)
 {
-	if(e.keyCode == 100)
+	if(e.keyCode == 100) // so many brackets bro. WTF? 
 	{
 		x = x + 5;
 	}
@@ -67,6 +67,6 @@ player.prototype.checkCollision = function ()
         (y < 0 + 100) )
         {     
         	ctx.font = 'italic 40pt Calibri';                
-            ctx.fillText("You Win",600,600);          
+            ctx.fillText("You Win",600,600);        // # GG brosky  
         }     
 }
